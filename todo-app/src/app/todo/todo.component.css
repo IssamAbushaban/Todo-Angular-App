@@ -1,0 +1,18 @@
+h2 {
+    color: #007acc;
+    font-family: sans-serif;
+}
+
+p {
+    font-style: italic;
+    color:#444;
+}
+
+:host {
+    display: block;
+    border:  2px dashed #007acc;
+    padding: 16px;
+    margin-top: 12px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
