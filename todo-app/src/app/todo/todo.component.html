@@ -1,2 +1,21 @@
 <h2>💪 My To-Do List</h2>
 <p>This is my first Angular component!</p>
+<form (submit)="addTodo($event)">
+    <input
+        type="text"
+        [value]="newTodo()"
+        (input)="newTodo.set($any($event.target).value)"
+        placeholder="Add a task!"
+    />
+    <button type="submit">Add</button>
+</form>
+
+<p *ngIf="showNoTextError()" style="color: red;">
+    Please enter a task before adding.
+</p>
+
+<ul>
+    <li *ngFor="let todo of todos()">
+        {{ todo.text }}
+    </li>
+</ul>

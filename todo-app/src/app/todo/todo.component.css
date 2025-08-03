@@ -1,11 +1,25 @@
 h2 {
     color: #007acc;
-    font-family: sans-serif;
 }
 
 p {
     font-style: italic;
     color:#444;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    align-self: center;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: #0086f4;
 }
 
 :host {

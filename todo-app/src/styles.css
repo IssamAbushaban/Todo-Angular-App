@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+        font-family: "Arial", sans-serif; /* Sets the font family */
+        font-size: 16px; /* Sets the base font size */
+        color: #333; /* Sets the default text color */
+        line-height: 1.6; /* Sets the line height for readability */
+    }
